@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lan="en">
+<head> 
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title> For For Freshie</title>
+  <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+</head>
+<body>
+  <header>
+    <h1>Form For Applicants</h1>
+  </header>
+  <form method="post">
+    <div>
+      <label for id="name">Input Your Name: </label>
+      <input type="text" id="name" name="Name" placeholder="Enter Your Name" autofocus>
+    </div>
+    <br>
+    <div>
+      <label for id="gender">Your Gender:</label>
+      <label><input type="radio" id="gender" value="Male" />Male</label>
+      <label><input type="radio" id="gender" value="Female" />female</label>
+    </div>
+    <br>
+    <div>
+      <label for id="city">Input Your City</label>
+      <input type="text" id="city" name="City" placeholder="Enter Your City ">
+    </div>
+  </form>
+  <br>
+  <div class="button">
+  <button class="button">Submit</button>
+  </div>
+</body>
+</html>
